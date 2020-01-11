@@ -84,29 +84,32 @@ nav {
                 display: block;
                 text-decoration: none;
                 color: #ffffff;
-                padding: 26px 18px;
+                padding: 26px 10px;
                 cursor: pointer;
                 transition: all 0.2s ease-in-out;
                 font-weight: 500;
             }
         }
     }
-    .btn-contact-us {
-        display: block;
-        font-family: inherit;
-        padding: 0.71429rem 1.07143rem;
-        border-radius: 0.28571rem;
-        border: 0.07143rem solid #fff;
-        cursor: pointer;
-        font-size: 1.14286rem;
-        background-color: unset;
-        color: #ffffff;
-        font-weight: 500;
-        &:hover {
-            // background-image: linear-gradient(#512da8, #512da8);
-            background-color: #000000;
+    a {
+        text-decoration: none;
+        .btn-contact-us {
+            display: block;
+            font-family: inherit;
+            padding: 0.71429rem 1.07143rem;
+            border-radius: 0.28571rem;
+            border: 0.07143rem solid #fff;
+            cursor: pointer;
+            font-size: 1.14286rem;
+            background-color: unset;
             color: #ffffff;
-            border-color: #000000;
+            font-weight: 500;
+            &:hover {
+                // background-image: linear-gradient(#512da8, #512da8);
+                background-color: #000000;
+                color: #ffffff;
+                border-color: #000000;
+            }
         }
     }
 }

@@ -239,14 +239,18 @@ nav ul li a {
   display: block;
   text-decoration: none;
   color: #ffffff;
-  padding: 26px 18px;
+  padding: 26px 10px;
   cursor: pointer;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   font-weight: 500;
 }
 
-nav .btn-contact-us {
+nav a {
+  text-decoration: none;
+}
+
+nav a .btn-contact-us {
   display: block;
   font-family: inherit;
   padding: 0.71429rem 1.07143rem;
@@ -259,7 +263,7 @@ nav .btn-contact-us {
   font-weight: 500;
 }
 
-nav .btn-contact-us:hover {
+nav a .btn-contact-us:hover {
   background-color: #000000;
   color: #ffffff;
   border-color: #000000;
@@ -672,7 +676,7 @@ nav .btn-contact-us:hover {
   background-color: #f2f2f1;
 }
 
-.cv-form {
+.rezervacija {
   padding: 100px 16px;
   background: #edeae4;
   display: -ms-grid;
@@ -689,12 +693,12 @@ nav .btn-contact-us:hover {
   /* Style the checkmark/indicator */
 }
 
-.cv-form__title {
+.rezervacija__title {
   text-align: center;
   margin: 0 0 50px 0;
 }
 
-.cv-form form {
+.rezervacija form {
   display: -ms-grid;
   display: grid;
   -webkit-box-pack: center;
@@ -703,13 +707,13 @@ nav .btn-contact-us:hover {
   gap: 20px;
 }
 
-.cv-form form .label {
+.rezervacija form .label {
   display: block;
   color: #000000;
   font-family: inherit;
 }
 
-.cv-form form .label .input {
+.rezervacija form .label .input {
   inline-size: 100%;
   display: block;
   border-radius: 8px;
@@ -721,11 +725,11 @@ nav .btn-contact-us:hover {
   margin: 3px 0 0 0;
 }
 
-.cv-form form .label .input:focus {
+.rezervacija form .label .input:focus {
   border: 2px solid #20ad3c;
 }
 
-.cv-form form .label textarea {
+.rezervacija form .label textarea {
   font-family: inherit;
   display: block;
   border-radius: 8px;
@@ -737,11 +741,11 @@ nav .btn-contact-us:hover {
   margin: 3px 0 0 0;
 }
 
-.cv-form form .label textarea:focus {
+.rezervacija form .label textarea:focus {
   border: 2px solid #20ad3c;
 }
 
-.cv-form .checkbox-container {
+.rezervacija .checkbox-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -753,7 +757,7 @@ nav .btn-contact-us:hover {
   margin: 3px 0 0 0;
 }
 
-.cv-form .checkbox-wrapper {
+.rezervacija .checkbox-wrapper {
   display: block;
   inline-size: 50%;
   position: relative;
@@ -768,7 +772,7 @@ nav .btn-contact-us:hover {
   /* Hide the browser's default checkbox */
 }
 
-.cv-form .checkbox-wrapper input {
+.rezervacija .checkbox-wrapper input {
   position: absolute;
   opacity: 0;
   cursor: pointer;
@@ -776,7 +780,7 @@ nav .btn-contact-us:hover {
   width: 0;
 }
 
-.cv-form .checkmark {
+.rezervacija .checkmark {
   position: absolute;
   top: 0;
   left: 0;
@@ -786,29 +790,29 @@ nav .btn-contact-us:hover {
   border-radius: 8px;
 }
 
-.cv-form .checkbox-wrapper {
+.rezervacija .checkbox-wrapper {
   color: #000000;
 }
 
-.cv-form .checkbox-wrapper:hover input ~ .checkmark {
+.rezervacija .checkbox-wrapper:hover input ~ .checkmark {
   background-color: #000000;
 }
 
-.cv-form .checkbox-wrapper input:checked ~ .checkmark {
+.rezervacija .checkbox-wrapper input:checked ~ .checkmark {
   background-color: #000000;
 }
 
-.cv-form .checkmark:after {
+.rezervacija .checkmark:after {
   content: "";
   position: absolute;
   display: none;
 }
 
-.cv-form .checkbox-wrapper input:checked ~ .checkmark:after {
+.rezervacija .checkbox-wrapper input:checked ~ .checkmark:after {
   display: block;
 }
 
-.cv-form .checkbox-wrapper .checkmark:after {
+.rezervacija .checkbox-wrapper .checkmark:after {
   left: 9px;
   top: 5px;
   width: 5px;
@@ -819,18 +823,18 @@ nav .btn-contact-us:hover {
   transform: rotate(45deg);
 }
 
-.cv-form .career-text {
+.rezervacija .career-text {
   font-size: 14px;
   text-align: center;
 }
 
-.cv-form .career-text span {
+.rezervacija .career-text span {
   color: #cb1741;
   font-weight: 800;
   cursor: pointer;
 }
 
-.cv-form .btn-contact-us {
+.rezervacija .btn-contact-us {
   display: block;
   font-family: inherit;
   padding: 0.71429rem 1.07143rem;
@@ -842,13 +846,13 @@ nav .btn-contact-us:hover {
   font-weight: 500;
 }
 
-.cv-form .btn-contact-us:hover {
+.rezervacija .btn-contact-us:hover {
   background-color: #000000;
   color: #ffffff;
 }
 
 @media (min-width: 812px) {
-  .cv-form {
+  .rezervacija {
     padding: 100px 60px;
     display: -ms-grid;
     display: grid;
@@ -856,7 +860,7 @@ nav .btn-contact-us:hover {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .cv-form form {
+  .rezervacija form {
     display: -ms-grid;
     display: grid;
     -webkit-box-pack: center;
@@ -865,13 +869,13 @@ nav .btn-contact-us:hover {
     gap: 30px;
     inline-size: 40vw;
   }
-  .cv-form form label {
+  .rezervacija form label {
     display: block;
     color: #ffffff;
     inline-size: 40vw;
     padding: unset;
   }
-  .cv-form form label .input {
+  .rezervacija form label .input {
     display: block;
     border-radius: 8px;
     font-size: 1rem;
@@ -881,10 +885,10 @@ nav .btn-contact-us:hover {
     color: #ffffff;
     margin: 3px 0 0 0;
   }
-  .cv-form form label .input:focus {
+  .rezervacija form label .input:focus {
     border: 2px solid #20ad3c;
   }
-  .cv-form form label textarea {
+  .rezervacija form label textarea {
     display: block;
     border-radius: 8px;
     font-size: 1rem;
@@ -895,13 +899,13 @@ nav .btn-contact-us:hover {
     inline-size: 40vw;
     margin: 3px 0 0 0;
   }
-  .cv-form form label textarea:focus {
+  .rezervacija form label textarea:focus {
     border: 2px solid #20ad3c;
   }
-  .cv-form form .btn-contact-us {
+  .rezervacija form .btn-contact-us {
     margin: unset;
   }
-  .cv-form .checkbox-wrapper {
+  .rezervacija .checkbox-wrapper {
     inline-size: unset;
   }
 }
