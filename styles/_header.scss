@@ -37,6 +37,7 @@
             align-items: center;
             block-size: 100%;
             .wellcomeText {
+                box-sizing: content-box;
                 max-inline-size: 62.5rem;
                 padding: 0 3.07143rem;
                 h1 {
