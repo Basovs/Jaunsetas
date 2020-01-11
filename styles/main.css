@@ -375,6 +375,110 @@ nav a .btn-contact-us:hover {
   }
 }
 
+.about-us {
+  background-color: #ffffff;
+  padding: 3.57143rem 1.42857rem;
+}
+
+.about-us__item .img-wrapper {
+  margin: 0 0 2rem 0;
+  block-size: 70vw;
+  -webkit-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
+}
+
+.about-us__item .article-div__article__title {
+  margin: 0 0 1rem 0;
+}
+
+.about-us__item .article-div__article p {
+  font-size: 1.28571rem;
+  line-height: 2.07143rem;
+}
+
+@media (min-width: 812px) {
+  .about-us__item .wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .about-us__item .wrapper .img-wrapper {
+    min-inline-size: 41.6667%;
+    max-block-size: 25.2rem;
+    margin: 0;
+    padding: 0 3.07143rem 0 1.07143rem;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .about-us__item .wrapper .article-div {
+    padding: 0 1.07143rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -ms-flex-item-align: center;
+        align-self: center;
+  }
+  .about-us__item .wrapper .article-div__article {
+    inline-size: 70%;
+  }
+}
+
+.small-text-content {
+  padding: 3.57143rem 1.42857rem;
+}
+
+.small-text-content__item {
+  padding: 0 0 1.78571rem 0;
+}
+
+.small-text-content__item__title {
+  font-size: 2.57143rem;
+  line-height: 3rem;
+  margin: 0 0 1.42857rem 0;
+}
+
+.small-text-content__item__content {
+  font-size: 1.28571rem;
+  line-height: 2.07143rem;
+  margin: 0 0 1.07143rem 0;
+}
+
+.small-text-content__item__link {
+  text-decoration: none;
+  display: block;
+  color: #20ad3c;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+@media (min-width: 1024px) {
+  .small-text-content .wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0 1.9rem;
+  }
+  .small-text-content__item {
+    width: 33.33333%;
+    padding: 0 1.07143rem;
+  }
+}
+
 .stories {
   padding: 3.57143rem 1.42857rem;
   background-color: #ffffff;
@@ -608,7 +712,6 @@ nav a .btn-contact-us:hover {
 .professions__professions-container__item {
   text-align: center;
   margin-top: 50px;
-  inline-size: 50%;
 }
 
 .professions__professions-container__item__title {
@@ -621,62 +724,7 @@ nav a .btn-contact-us:hover {
 
 @media (min-width: 632px) {
   .professions__professions-container__item {
-    inline-size: 165px;
-  }
-}
-
-.about-us {
-  background-color: #ffffff;
-  padding: 3.57143rem 1.42857rem;
-}
-
-.about-us__item .img-wrapper {
-  margin: 0 0 2rem 0;
-  block-size: 70vw;
-  -webkit-transition: 0.3s ease-out;
-  transition: 0.3s ease-out;
-}
-
-.about-us__item .article-div__article__title {
-  margin: 0 0 1rem 0;
-}
-
-.about-us__item .article-div__article p {
-  font-size: 1.28571rem;
-  line-height: 2.07143rem;
-}
-
-@media (min-width: 812px) {
-  .about-us__item .wrapper {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-  }
-  .about-us__item .wrapper .img-wrapper {
-    min-inline-size: 41.6667%;
-    max-block-size: 25.2rem;
-    margin: 0;
-    padding: 0 1.07143rem;
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
-  }
-  .about-us__item .wrapper .article-div {
-    padding: 0 1.07143rem;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-item-align: center;
-        align-self: center;
-  }
-  .about-us__item .wrapper .article-div__article {
-    inline-size: 70%;
+    inline-size: 25%;
   }
 }
 
@@ -837,7 +885,7 @@ nav a .btn-contact-us:hover {
 }
 
 .rezervacija .career-text span {
-  color: #cb1741;
+  color: #20ad3c;
   font-weight: 800;
   cursor: pointer;
 }
