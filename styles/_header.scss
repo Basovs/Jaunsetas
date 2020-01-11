@@ -17,11 +17,10 @@
         position: absolute;
         top: 0;
         left: 0;
+        z-index: -1;
     }
     .wrapper {
-        z-index: 1;
         .wellcomeText {
-            z-index: 1;
             color: #ffffff;
             h1 {
                 font-size: 3.42857rem;
