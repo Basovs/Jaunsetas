@@ -48,7 +48,7 @@ select {
 }
 
 .wrapper {
-  max-inline-size: 85.71429rem;
+  max-inline-size: 100rem;
   margin: 0 auto;
 }
 
@@ -445,6 +445,7 @@ nav a .btn-contact-us:hover {
             flex-direction: row;
   }
   .stories__item .img-wrapper {
+    inline-size: 41.6667%;
     min-inline-size: 41.6667%;
     max-block-size: 25.2rem;
     margin: 0;
@@ -914,8 +915,7 @@ nav a .btn-contact-us:hover {
 }
 
 footer {
-  background-color: #100e17;
-  color: #ffffff;
+  background-color: #ffffff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
