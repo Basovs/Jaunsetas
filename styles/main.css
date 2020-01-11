@@ -33,7 +33,7 @@ h3 {
 }
 
 p {
-  letter-spacing: 0.01rem;
+  letter-spacing: 0.02rem;
 }
 
 select {
@@ -439,7 +439,7 @@ nav a .btn-contact-us:hover {
 }
 
 .small-text-content {
-  padding: 3.57143rem 1.42857rem;
+  padding: 7.14286rem 1.42857rem;
 }
 
 .small-text-content__item {
