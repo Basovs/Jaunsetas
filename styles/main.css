@@ -335,6 +335,10 @@ nav .btn-contact-us:hover {
   left: 0;
 }
 
+.header .wrapper {
+  z-index: 1;
+}
+
 .header .wrapper .wellcomeText {
   z-index: 1;
   color: #ffffff;
