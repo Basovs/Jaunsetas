@@ -360,8 +360,6 @@ nav a .btn-contact-us:hover {
     block-size: 100%;
   }
   .header .wrapper .wellcomeText {
-    -webkit-box-sizing: content-box;
-            box-sizing: content-box;
     max-inline-size: 62.5rem;
     padding: 0 3.07143rem;
   }
