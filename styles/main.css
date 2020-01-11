@@ -361,6 +361,7 @@ nav a .btn-contact-us:hover {
   }
   .header .wrapper .wellcomeText {
     max-inline-size: 62.5rem;
+    padding: 0 3.07143rem;
   }
   .header .wrapper .wellcomeText h1 {
     font-size: 4.57143rem;
