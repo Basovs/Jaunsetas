@@ -6,9 +6,6 @@
             margin: 0 0 2rem 0;
             block-size: 70vw;
             transition: 0.3s ease-out;
-            &__img {
-                object-fit: contain;
-            }
         }
         .article-div__article {
             &__title {
@@ -30,14 +27,19 @@
                 align-items: center;
                 justify-content: center;
                 .img-wrapper {
-                    inline-size: 20%;
-                    block-size: 100%;
-                    align-self: center;
+                    min-inline-size: 41.6667%;
+                    max-block-size: 25.2rem;
+                    margin: 0;
                     padding: 0 1.07143rem;
+                    align-self: center;
                 }
                 .article-div {
-                    inline-size: 40%;
                     padding: 0 1.07143rem;
+                    display: flex;
+                    align-self: center;
+                    &__article {
+                        inline-size: 70%;
+                    }
                 }
             }
         }
