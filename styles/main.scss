@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+    font-size: 0.875rem;
+}
+body {
+    // font-family: titling-gothic-fb, sans-serif;
+    // font-weight: 300;
+
+    // font-family: urbane, sans-serif;
+    // font-weight: 300;
+    // font-style: normal;
+
+    // font-family: lato, sans-serif;
+    // font-weight: 400;
+    // font-style: normal;
+
+    // font-family: roboto, sans-serif;
+    // font-weight: 400;
+    // font-style: normal;
+
+    font-family: proxima-nova, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    // color: #33475b;
+    color: #000000;
+    -moz-osx-font-smoothing: grayscale;
+}
+h1 {
+    font-weight: 700;
+}
+h2 {
+    font-weight: 700;
+    font-size: 2.14286rem;
+    line-height: 2.71429rem;
+}
+h3 {
+    font-size: 2rem;
+}
+p {
+    letter-spacing: 0.01rem;
+}
+
+select {
+    appearance: none;
+    background-image: url(img/arrow.svg);
+    background-size: 50px 10px;
+    background-repeat: no-repeat;
+    background-position: right;
+    cursor: pointer;
+}
+.wrapper {
+    max-inline-size: 85.71429rem;
+    margin: 0 auto;
+}
+
+.img-wrapper {
+    position: relative;
+    &__img {
+        display: block;
+        object-fit: cover;
+        inline-size: 100%;
+        block-size: 100%;
+        // position: absolute;
+    }
+}
+
+@media (min-width: 812px) {
+    h2 {
+        font-size: 3.42857rem;
+        line-height: 4.14286rem;
+    }
+}
+
+@import "nav";
+@import "header";
+@import "stories";
+@import "partners";
+@import "statistics";
+@import "professions";
+@import "about-us";
+@import "companies-form";
+@import "cv-form";
+@import "footer";
