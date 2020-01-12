@@ -1,0 +1,9 @@
+.breaker {
+    display: flex;
+    justify-content: center;
+    .img-wrapper {
+        inline-size: 100%;
+        max-inline-size: 150rem;
+        block-size: 13vw;
+    }
+}

@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  font-family: proxima-nova, sans-serif;
+  font-family: roboto, sans-serif;
   font-weight: 400;
   font-style: normal;
   color: #000000;
@@ -61,6 +61,7 @@ select {
   -o-object-fit: cover;
      object-fit: cover;
   inline-size: 100%;
+  min-inline-size: 100%;
   block-size: 100%;
 }
 
@@ -477,6 +478,21 @@ nav a .btn-contact-us:hover {
     width: 33.33333%;
     padding: 0 1.07143rem;
   }
+}
+
+.breaker {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.breaker .img-wrapper {
+  inline-size: 100%;
+  max-inline-size: 150rem;
+  block-size: 13vw;
 }
 
 .stories {
