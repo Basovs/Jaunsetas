@@ -302,7 +302,7 @@ nav a .btn-contact-us:hover {
   }
 }
 
-@media (min-width: 1126px) {
+@media (min-width: 1150px) {
   nav ul {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -487,12 +487,14 @@ nav a .btn-contact-us:hover {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin: 0 0 5rem 0;
 }
 
 .breaker .img-wrapper {
   inline-size: 100%;
+  max-inline-size: 100%;
   max-inline-size: 150rem;
-  block-size: 13vw;
+  max-block-size: 30vh;
 }
 
 .stories {
