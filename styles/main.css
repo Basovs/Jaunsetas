@@ -493,8 +493,8 @@ nav a .btn-contact-us:hover {
 .breaker .img-wrapper {
   inline-size: 100%;
   max-inline-size: 100%;
-  max-inline-size: 140rem;
-  max-block-size: 30vh;
+  max-inline-size: 135rem;
+  max-block-size: 35vh;
 }
 
 .stories {
