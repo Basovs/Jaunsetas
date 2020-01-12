@@ -332,8 +332,8 @@ nav a .btn-contact-us:hover {
 
 .header::after {
   content: "";
-  block-size: 100vh;
-  inline-size: 100vw;
+  block-size: 100%;
+  inline-size: 100%;
   background-color: #20ad3c50;
   position: absolute;
   top: 0;
