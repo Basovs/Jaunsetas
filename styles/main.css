@@ -488,6 +488,8 @@ nav a .btn-contact-us:hover {
       -ms-flex-pack: center;
           justify-content: center;
   margin: 0 0 5rem 0;
+  -webkit-transition: 0.3s ease-out;
+  transition: 0.3s ease-out;
 }
 
 .breaker .img-wrapper {
