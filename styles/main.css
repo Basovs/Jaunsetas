@@ -318,7 +318,6 @@ nav a .btn-contact-us:hover {
 
 .header {
   margin: -5.35714rem 0 0 0;
-  background-color: #cb1741;
   background-image: url(../img/main_head.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -915,7 +914,7 @@ nav a .btn-contact-us:hover {
   font-family: inherit;
   padding: 0.71429rem 1.07143rem;
   border-radius: 0.28571rem;
-  border: 0.07143rem solid #000000;
+  border: 0.14286rem solid #000000;
   cursor: pointer;
   font-size: 1.14286rem;
   background-color: unset;
